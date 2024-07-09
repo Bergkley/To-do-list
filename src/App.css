@@ -122,3 +122,28 @@ button:hover {
 .filter-options div {
   flex: 1 1 0;
 }
+.category {
+  margin-left: 10px;
+  align-self: center; 
+}
+
+.todobotoes {
+  display: flex;
+  gap: 10px;
+}
+.button-order {
+  margin-top: 2%;
+  padding: 10px 20px;
+  background-color: #555; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.button-order:hover {
+  background-color: #45a049; 
+  transform: scale(1.05); 
+}
